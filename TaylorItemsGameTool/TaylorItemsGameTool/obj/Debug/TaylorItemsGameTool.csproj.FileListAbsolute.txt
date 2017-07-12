@@ -1,0 +1,14 @@
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\bin\Debug\TaylorItemsGameTool.exe.config
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\bin\Debug\TaylorItemsGameTool.exe
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\bin\Debug\TaylorItemsGameTool.pdb
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\obj\Debug\TaylorItemsGameTool.csprojResolveAssemblyReference.cache
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\obj\Debug\MainWindow.g.cs
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\obj\Debug\App.g.cs
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\obj\Debug\TaylorItemsGameTool_MarkupCompile.cache
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\obj\Debug\TaylorItemsGameTool_MarkupCompile.lref
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\obj\Debug\MainWindow.baml
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\obj\Debug\TaylorItemsGameTool.g.resources
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\obj\Debug\TaylorItemsGameTool.Properties.Resources.resources
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\obj\Debug\TaylorItemsGameTool.csproj.GenerateResource.Cache
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\obj\Debug\TaylorItemsGameTool.exe
+D:\UAT\Game Tools Programming\TaylorItemsGameTool\TaylorItemsGameTool\obj\Debug\TaylorItemsGameTool.pdb

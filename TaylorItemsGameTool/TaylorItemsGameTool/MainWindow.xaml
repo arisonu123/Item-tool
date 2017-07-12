@@ -1,0 +1,111 @@
+﻿<Window x:Name="Item_Creator" x:Class="TaylorItemsGameTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaylorItemsGameTool"
+        mc:Ignorable="d"
+        Title="Item Creator" Height="800" Width="550">
+    <Grid Margin="0,0,0,-20">
+        <Label x:Name="itemCreatorLabel" Content="Item Creator" HorizontalAlignment="Left" Margin="180,10,0,0" VerticalAlignment="Top" FontSize="30" RenderTransformOrigin="-2,0.447"/>
+        <Label x:Name="itemNameLabel" Content="Item Name" HorizontalAlignment="Left" Margin="219,65,0,0" VerticalAlignment="Top" FontSize="20" Width="107"/>
+        <TextBox x:Name="itemNameText" HorizontalAlignment="Left" Height="23" Margin="206,107,0,0" TextWrapping="Wrap" Text="Input Name" VerticalAlignment="Top" Width="120" TextChanged="itemNameText_TextChanged"/>
+        <Label x:Name="itemTypeLabel" Content="Item Type" HorizontalAlignment="Left" Margin="232,135,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="itemTypeList" HorizontalAlignment="Left" Margin="206,166,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="itemTypeList_SelectionChanged"/>
+        <Label x:Name="damageLabel" Content="Damage" HorizontalAlignment="Left" Margin="52,199,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="Damage Type" HorizontalAlignment="Left" Margin="229,203,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.427,2.923">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-4.086"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-5.431"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <ComboBox x:Name="damageTypeList" HorizontalAlignment="Left" Margin="206,231,0,0" VerticalAlignment="Top" Width="120" IsEnabled="False" SelectionChanged="damageTypeList_SelectionChanged"/>
+        <Label x:Name="wepSubTypeLabel" Content="Weapon Subtype" HorizontalAlignment="Left" Margin="392,205,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="wepSubTypeList" HorizontalAlignment="Left" Margin="382,231,0,0" VerticalAlignment="Top" Width="120" IsEnabled="False" SelectionChanged="wepSubTypeList_SelectionChanged"/>
+        <TextBox x:Name="damageNum" HorizontalAlignment="Left" Height="23" Margin="22,230,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" IsEnabled="False" TextChanged="damageNum_TextChanged"/>
+        <Label x:Name="armorBonusLabel" Content="Armor Bonus" HorizontalAlignment="Left" Margin="224,270,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-4.086"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.929"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="armorBonusNum" HorizontalAlignment="Left" Height="23" Margin="206,299,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" IsEnabled="False" TextChanged="armorBonusNum_TextChanged"/>
+        <Label x:Name="itemLevelLabel" Content="Item Level" HorizontalAlignment="Left" Margin="138,334,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.556,5.269"/>
+        <TextBox x:Name="itemLevelNum" HorizontalAlignment="Left" Height="23" Margin="112,365,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" TextChanged="itemLevelNum_TextChanged"/>
+        <Label x:Name="requiredLevelLabel" Content="Required Level" HorizontalAlignment="Left" Margin="313,335,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-4.086"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.929"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="requiredLevelNum" HorizontalAlignment="Left" Height="23" Margin="293,365,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" TextChanged="requiredLevelNum_TextChanged"/>
+        <Label x:Name="bindRuleLabel" Content="Bind Rule" HorizontalAlignment="Left" Margin="134,403,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.613,5.077">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-4.086"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-9.431"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <ComboBox x:Name="bindRuleList" HorizontalAlignment="Left" Margin="112,436,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.492,8" SelectionChanged="bindRuleList_SelectionChanged"/>
+        <Label x:Name="saleValueLabel" Content="Sale Value" HorizontalAlignment="Left" Margin="316,403,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-4.086"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.929"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="saleValueNum" HorizontalAlignment="Left" Height="23" Margin="293,436,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120" TextChanged="saleValueNum_TextChanged"/>
+        <Label x:Name="classRestrictionLabel" Content="Class Rescriction" HorizontalAlignment="Left" Margin="119,479,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.613,5.077">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-4.086"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-9.431"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="raceRescrictionLabel" Content="Race Rescriction" HorizontalAlignment="Left" Margin="311,478,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-4.086"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.929"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <CheckBox x:Name="rogueClass" Content="Rogue" HorizontalAlignment="Left" Margin="112,509,0,0" VerticalAlignment="Top" Checked="rogueClass_Checked"/>
+        <CheckBox x:Name="warriorClass" Content="Warrior" HorizontalAlignment="Left" Margin="180,512,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.438" Checked="warriorClass_Checked"/>
+        <CheckBox x:Name="wizardClass" Content="Wizard" HorizontalAlignment="Left" Margin="112,540,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.438" Checked="wizardClass_Checked"/>
+        <CheckBox x:Name="clericClass" Content="Cleric" HorizontalAlignment="Left" Margin="180,540,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.438" Checked="clericClass_Checked"/>
+        <CheckBox x:Name="thiefClass" Content="Thief" HorizontalAlignment="Left" Margin="112,570,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.438" Checked="thiefClass_Checked"/>
+        <CheckBox x:Name="anyClass" Content="Any" HorizontalAlignment="Left" Margin="180,570,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.438" IsChecked="True" Checked="anyClass_Checked"/>
+        <CheckBox x:Name="elfRace" Content="Elf" HorizontalAlignment="Left" Margin="298,509,0,0" VerticalAlignment="Top" Checked="elfRace_Checked"/>
+        <CheckBox x:Name="dwarfRace" Content="Dwarf" HorizontalAlignment="Left" Margin="365,509,0,0" VerticalAlignment="Top" Checked="dwarfRace_Checked"/>
+        <CheckBox x:Name="humanRace" Content="Human" HorizontalAlignment="Left" Margin="365,540,0,0" VerticalAlignment="Top" Checked="humanRace_Checked"/>
+        <CheckBox x:Name="halflingRace" Content="Halfling" HorizontalAlignment="Left" Margin="298,540,0,0" VerticalAlignment="Top" Checked="halflingRace_Checked"/>
+        <CheckBox x:Name="trollRace" Content="Troll" HorizontalAlignment="Left" Margin="298,570,0,0" VerticalAlignment="Top" Checked="trollRace_Checked"/>
+        <CheckBox x:Name="anyRace" Content="Any" HorizontalAlignment="Left" Margin="365,570,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.438" IsChecked="True" Checked="anyRace_Checked"/>
+        <Button x:Name="saveButton" Content="Save!" HorizontalAlignment="Left" Margin="220,601,0,0" VerticalAlignment="Top" Width="75" Click="saveButton_Click"/>
+
+    </Grid>
+</Window>
